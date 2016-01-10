@@ -2,6 +2,7 @@
 
 Route::group(['middleware' => ['web', 'auth']], function () {
     Route::get('/', 'IndexController@index');
+    Route::get('/app', 'AppController@index');
 
 });
 

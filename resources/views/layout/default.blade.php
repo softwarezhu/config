@@ -25,13 +25,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">惠多多管理后台</a>
+            <a class="navbar-brand" href="/">配置管理系统</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="/rewards">优惠券</a></li>
-                <li><a href="/products">商品</a></li>
-                <li><a href="/merchants">商家</a></li>
+                <li><a href="/app">应用</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>你好，{{ $currentUser->name }}<a href="/auth/logout" class="logout">退出登录</a></li>
