@@ -31,3 +31,4 @@ vendor
 .lock
 Homestead.yaml
 Homestead.json
+.env
